@@ -101,10 +101,8 @@
 		F4054B821F69F67D00A9251E /* MiSegundaApp */ = {
 			isa = PBXGroup;
 			children = (
-				F4054B861F69F67D00A9251E /* AppDelegate.h */,
-				F4054B871F69F67D00A9251E /* AppDelegate.m */,
-				F4054B891F69F67D00A9251E /* ViewController.h */,
-				F4054B8A1F69F67D00A9251E /* ViewController.m */,
+				F4054BB61F69F7AD00A9251E /* Controllers */,
+				F4054BB71F69F80600A9251E /* Main */,
 				F4054B8C1F69F67D00A9251E /* Main.storyboard */,
 				F4054B8F1F69F67E00A9251E /* Assets.xcassets */,
 				F4054B911F69F67E00A9251E /* LaunchScreen.storyboard */,
@@ -138,6 +136,24 @@
 				F4054BAA1F69F67E00A9251E /* Info.plist */,
 			);
 			path = MiSegundaAppUITests;
+			sourceTree = "<group>";
+		};
+		F4054BB61F69F7AD00A9251E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4054B891F69F67D00A9251E /* ViewController.h */,
+				F4054B8A1F69F67D00A9251E /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F4054BB71F69F80600A9251E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4054B861F69F67D00A9251E /* AppDelegate.h */,
+				F4054B871F69F67D00A9251E /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
